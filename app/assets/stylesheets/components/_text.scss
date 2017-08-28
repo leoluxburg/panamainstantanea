@@ -1,0 +1,46 @@
+.title h1{
+  font-family: 'Sniglet', cursive;
+  font-size: 90px;
+  font-weight: lighter;
+  padding-top:30px;
+}
+
+.social {
+  display: flex;
+  align-items: flex-end;
+  position:absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.social a {
+color:white;
+font-size: 70px;
+letter-spacing: 40px;
+}
+
+.line hr{
+    border: none;
+    height: 2px;
+    color: white;
+    background-color: red;
+}
+
+.content{
+  padding-top: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: lighter;
+}
+.content2{
+  padding-top: 15px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: lighter;
+}
+.content2 a{
+color:white;
+}
+.symbols{
+  color: white;
+  font-size:45px;
+}
+

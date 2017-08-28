@@ -1,0 +1,35 @@
+#footer {
+  background: #232222;
+  padding: 50px 0;
+  color: #white;
+}
+#footer p {
+  margin-top: 17px;
+  color: #D1CCCC;
+}
+#footer ul {
+  margin-top: 10px;
+}
+#footer a {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+}
+#footer a:hover{
+  color: #e82e2e;
+}
+
+.footer-logo img{
+  height:100px;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}

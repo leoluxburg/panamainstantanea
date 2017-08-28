@@ -1,1 +1,69 @@
 // Specific CSS for your home-page
+body{
+  background-color:white;
+}
+hr {
+  border: none;
+  height: 2px;
+  color: white;
+  background-color: white;
+}
+.proyecto{
+  background-color: white;
+}
+.proyecto h3{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.proyecto img{
+  height: 150px;
+  padding-bottom: 30px;
+}
+
+.proyecto h6 {
+  text-align: center;
+  text-justify: inter-word;
+  color:#e82e2e;
+}
+
+.expocicion{
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-size: cover !important;
+  position:relative
+}
+
+.artistas{
+  background-color:white;
+}
+.artistas h3{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.artistas img{
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+  border-color:#e82e2e ;
+  border-style: solid;
+  border-width: 4px;
+   -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.artistas a {
+  color:white;
+}
+.artistas h5{
+  color:#e82e2e ;
+}
+.padded{
+  padding-top:60px;
+  padding-bottom:60px;
+}
+
+.white{
+  background-color: white;
+}
