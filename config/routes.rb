@@ -21,11 +21,11 @@ Rails.application.routes.draw do
 
   get 'pages/home'
 
-  get 'pages/proyecto'
+  get 'pages/proyecto',to: 'pages#proyecto'
 
   get 'pages/objetivos'
 
-  get 'pages/evento'
+  get 'pages/evento', to:'pages#evento'
 
   get 'pages/artistas', to: 'pages#artistas'
 

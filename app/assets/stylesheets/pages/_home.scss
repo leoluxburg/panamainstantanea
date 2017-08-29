@@ -35,6 +35,11 @@ hr {
   background-size: cover !important;
   position:relative
 }
+.btn-expo{
+  background-color: white;
+  color:#e82e2e ;
+
+}
 
 .artistas{
   background-color:white;
@@ -63,7 +68,23 @@ hr {
   padding-top:60px;
   padding-bottom:60px;
 }
+.pad{
+  padding-bottom:30px;
+}
+.wrappper-background {
+  background-color: white;
+  padding: -5px;
+}
+.wrappper-venue {
+  width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 100px 20px;
+}
 
+.fundacion img{
+  height:150px;
+}
 .white{
   background-color: white;
 }
