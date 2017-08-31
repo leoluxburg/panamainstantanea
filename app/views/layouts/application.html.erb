@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Panama Instantenea</title>
-    <%= render 'application/favicon' %>
-    <%= csrf_meta_tags %>
-    <%= action_cable_meta_tag %>
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Averia+Sans+Libre|Sniglet" rel="stylesheet">
-  </head>
-  <body class="Site">
+<head>
+  <title>Panama Instantenea</title>
+  <%= render 'application/favicon' %>
+  <%= csrf_meta_tags %>
+  <%= action_cable_meta_tag %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee|Averia+Sans+Libre|Sniglet" rel="stylesheet">
+</head>
+<body class="Site">
   <main class="Site-content">
     <%= yield %>
   </main>
   <%= render 'shared/footer' %>
-    <%= javascript_include_tag 'application' %>
-  </body>
+  <%= javascript_include_tag 'application' %>
+</body>
 </html>
