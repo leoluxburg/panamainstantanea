@@ -19,9 +19,11 @@ hr {
 .proyecto img{
   height: 150px;
   padding-bottom: 30px;
-}
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+ }
 
-.proyecto h5 {
+ .proyecto h5 {
   text-align: center;
   text-justify: inter-word;
   color:#e82e2e;
