@@ -13,4 +13,10 @@ class PagesController < ApplicationController
 
   def artistas
   end
+
+  def photos
+  end
+
+  def contact
+  end
 end

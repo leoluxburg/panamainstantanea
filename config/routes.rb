@@ -23,11 +23,15 @@ Rails.application.routes.draw do
 
   get 'pages/proyecto',to: 'pages#proyecto'
 
+  get 'pages/photos',to: 'pages#photos'
+
   get 'pages/objetivos'
 
   get 'pages/evento', to:'pages#evento'
 
   get 'pages/artistas', to: 'pages#artistas'
+
+   get 'pages/contact', to: 'pages#contact'
 
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

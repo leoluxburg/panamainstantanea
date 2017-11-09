@@ -1,61 +1,75 @@
 <%= render 'shared/navbar' %>
 <div class="white">
-  <div class="container text-center proyecto">
-    <h3> <strong>PANAMÁ INSTANTÁNEA</strong></h3>
-    <hr>
-    <p style="text-align: center;"> PANAMÁ INSTANTÁNEA es un grupo de jóvenes radicados en Panamá que comparten una misma afición por la fotografía e Instagram. El grupo ha sido formado a través de las redes sociales, donde cada uno de nosotros comparte las experiencias y momentos vividos en Panamá a través de fotografías que, a lo largo del tiempo, han ido ganando reconocimiento de otros usuarios locales por tener un estilo personal diferenciador.
-    </p>
-    <br>
-    <p style="text-align: center;">
-    Los integrantes del grupo compartimos una misma visión sobre el entorno que nos rodea lo apreciamos con otros ojos y lo retratamos para el mundo, procurando sacar lo mejor de él. Amamos a Panamá y estamos seguros de que este proyecto inspirará a los asistentes ver lo cotidiano con ojos diferentes.</p>
+  <div class="container text-center">
+    <div class="size">
+      <%= image_tag "pismallred.png"%>
+    </div>
+    <div class="proyecto">
+      <h3> <strong>PANAMÁ INSTANTÁNEA</strong></h3>
+      <hr>
+      <p style="text-align: center;"> PANAMÁ INSTANTÁNEA es un grupo de jóvenes radicados en Panamá que comparten una misma afición por la fotografía e Instagram. El grupo ha sido formado a través de las redes sociales, donde cada uno de nosotros comparte las experiencias y momentos vividos en Panamá a través de fotografías que, a lo largo del tiempo, han ido ganando reconocimiento de otros usuarios locales por tener un estilo personal diferenciador.
+      </p>
+      <br>
+      <p style="text-align: center;">
+      Los integrantes del grupo compartimos una misma visión sobre el entorno que nos rodea lo apreciamos con otros ojos y lo retratamos para el mundo, procurando sacar lo mejor de él. Amamos a Panamá y estamos seguros de que este proyecto inspirará a los asistentes ver lo cotidiano con ojos diferentes.</p>
+      <br>
+      <p style="text-align: center;">
+        2017, primera edición: Formó parte del circuito fotográfico Foto Septiembre, impulsado y creado por el MAC Panamá (Museo de Arte Contemporáneo)  <br>
+        De octubre hasta el mes de diciembre del 2017, se transforma en una exhibición itinerante,
+        recorriendo diversos puntos de la ciudad de Panamá.
+      </p>
+      <div class="padded">
+      <%= link_to "Se parte, apoya y dona", pages_contact_path, class: "btn btn-danger"%>
+    </div>
+    </div>
   </div>
-</div>
-<br>
-<br>
-<div class="text-center">
-  <div class="expocicion" style="background-image: linear-gradient(-225deg, rgba(280,20,0,0.6) 0%, rgba(250,0,0,0.7) 50%), url('<%= image_path('cholito.png')%>'); background-position: center;">
-    <h3><strong>OBJETIVOS</strong></h3>
-    <br>
-    <ul class="list-unstyled">
-      <li>· Fomentar y dar visibilidad al trabajo fotográfico digital y nuevas tecnologías.
-      </li>
+  <br>
+  <br>
+  <div class="text-center">
+    <div class="expocicion" style="background-image: linear-gradient(-225deg, rgba(280,20,0,0.6) 0%, rgba(250,0,0,0.7) 50%), url('<%= image_path('cholito.png')%>'); background-position: center;">
+      <h3><strong>OBJETIVOS</strong></h3>
       <br>
-      <li>· Generar espacios de diálogos y reflexión.</li>
-      <br>
-      <li>· Impulsar el turismo local, dando a conocer a nuestro país desde otras perspectivas.</li>
-      <br>
-      <li>· Crear banco de imágenes abiertas del país.</li>
-      <br>
-      <li>· Impulsar la creación de una red milenial con visión artística e influencia digital.</li>
-    </ul>
+      <ul class="list-unstyled">
+        <li>· Fomentar y dar visibilidad al trabajo fotográfico digital y nuevas tecnologías.
+        </li>
+        <br>
+        <li>· Generar espacios de diálogos y reflexión.</li>
+        <br>
+        <li>· Impulsar el turismo local, dando a conocer a nuestro país desde otras perspectivas.</li>
+        <br>
+        <li>· Crear banco de imágenes abiertas del país.</li>
+        <br>
+        <li>· Impulsar la creación de una red milenial con visión artística e influencia digital.</li>
+      </ul>
+    </div>
   </div>
-</div>
-<br>
+  <br>
 
-<br>
-<div class="proyecto text-center">
-  <div class="text-center ">
-    <div class="row text-center" >
-      <br>
-      <div class="col-xs-12 col-md-3">
-        <%= image_tag('logopunto.png')%>
-      </div>
-      <div class="col-xs-12 col-md-2">
-        <%= image_tag('pb.png')%>
-      </div>
-      <div class="col-xs-12 col-md-2">
-        <%= image_tag('mac.png')%>
-      </div>
-      <div class="col-xs-12 col-md-2">
-        <%= image_tag('af.png')%>
-      </div>
-      <div class="col-xs-12 col-md-3">
-        <%= image_tag('hilton2.png')%>
+  <br>
+  <div class="proyecto text-center">
+    <div class="text-center ">
+      <p>Patrocinadores y Aliados 2017</p>
+      <div class="row text-center" >
+        <br>
+        <div class="col-xs-12 col-md-3">
+          <%= image_tag('logopunto.png')%>
+        </div>
+        <div class="col-xs-12 col-md-2">
+          <%= image_tag('pb.png')%>
+        </div>
+        <div class="col-xs-12 col-md-2">
+          <%= image_tag('mac.png')%>
+        </div>
+        <div class="col-xs-12 col-md-2">
+          <%= image_tag('af.png')%>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <%= image_tag('hilton2.png')%>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
 

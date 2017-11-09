@@ -1,7 +1,7 @@
 <%= render 'shared/navbar' %>
 <%= render 'shared/banner' %>
-<div class="white">
-  <div class="container text-center proyecto">
+<div class="white proyecto">
+  <div class="container text-center">
     <h3> <strong>EL PROYECTO</strong></h3>
     <div class="container">
       <div class="col-xs-12  col-sm-8 col-sm-offset-2">
@@ -9,7 +9,7 @@
       </div>
     </div>
     <br>
-    <p style="text-align: center;"> Panamá Instantánea nace como una iniciativa de un grupo de jóvenes radicados en Panamá,<br> que comparten una misma afición por la fotografía e Instagram.
+   <p style="text-align: center;"> Panamá Instantánea nace como una iniciativa de un grupo de jóvenes radicados en Panamá,<br> que comparten una misma afición por la fotografía e Instagram.
       <br>
       <br>
       En esta edición, forma parte del circuito fotográfico Foto Septiembre, impulsado por el MAC.
@@ -17,24 +17,25 @@
     <div class="padded">
       <%= link_to "Ver más", pages_proyecto_path, class: "btn btn-danger"%>
     </div>
-    <div class="row text-center" >
-      <br>
-      <div class="col-xs-12 col-md-3">
-        <%= image_tag('logopunto.png')%>
-      </div>
-      <div class="col-xs-12 col-md-2">
-        <%= image_tag('pb.png')%>
-      </div>
-      <div class="col-xs-12 col-md-2">
-        <%= image_tag('mac.png')%>
-      </div>
-      <div class="col-xs-12 col-md-2">
-        <%= image_tag('af.png')%>
-      </div>
-      <div class="col-xs-12 col-md-3">
-        <%= image_tag('hilton2.png')%>
-      </div>
+  </div>
+  <div class="row text-center" >
+    <br>
+    <div class="col-xs-12 col-md-3">
+      <%= image_tag('logopunto.png')%>
     </div>
+    <div class="col-xs-12 col-md-2">
+      <%= image_tag('pb.png')%>
+    </div>
+    <div class="col-xs-12 col-md-2">
+      <%= image_tag('mac.png')%>
+    </div>
+    <div class="col-xs-12 col-md-2">
+      <%= image_tag('af.png')%>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <%= image_tag('hilton2.png')%>
+    </div>
+
   </div>
   <br>
   <br>
@@ -44,28 +45,26 @@
   <div class= "padded">
     <h3><strong>EXPOSICIÓN</strong></h3>
     <ul class="list-unstyled">
-      <a href="https://www.google.com.pa/maps/place/Hilton+Panam%C3%A1/@8.9758587,-79.5246984,17z/data=!3m1!4b1!4m5!3m4!1s0x8faca8e718730dc7:0xa0b50e752724620f!8m2!3d8.9758587!4d-79.5225097?hl=en
-      ">
-      <li><i class="fa fa-map-marker symbols" aria-hidden="true"></i></li>
-    </a>
+
+      <li><i class="fa fa-camera-retro symbols" aria-hidden="true"></i></li>
+
+      <br>
+      <li><p>Galeria online de Panamá Instantánea.</p></li>
+      <br>
+      <div class="col-xs-12">
+        <%= link_to "Ver fotografías en exhibición", pages_photos_path, class: "btn btn-expo"%>
+      </div>
+    </ul>
     <br>
-    <li><p><strong>LUGAR:</strong> HOTEL HILTON, PANAMÁ AVENIDA BALBOA <br> GALERIA ABIERTA BY PUNTO BOHEMIO, LOBBY 2</p></li>
     <br>
-    <li><i class="fa fa-calendar symbols" aria-hidden="true"></i></li>
     <br>
-    <li><p><strong>EVENTO INAUGURAL:</strong> 19 DE SEPTIEMBRE</p></li>
-    <li><p><strong>HORA: </strong>7:00 PM</p></li>
-    <p><strong>EXHIBICIÓN: </strong>SEPTIEMBRE 19 - OCTUBRE 14</p></li>
-  </ul>
-  <br>
-  <br>
-  <div class="col-xs-12 col-sm-6 pad">
-    <%= link_to "Ver Artistas", pages_artistas_path, class: "btn btn-expo"%>
+    <div class="col-xs-12 col-sm-6">
+      <%= link_to "Ver Artistas", pages_artistas_path, class: "btn btn-expo"%>
+    </div>
+    <div class="col-xs-12 col-sm-6 pad">
+      <%= link_to "Más Sobre la Expo", pages_evento_path, class: "btn btn-expo"%>
+    </div>
   </div>
-  <div class="col-xs-12 col-sm-6">
-    <%= link_to "Más Sobre la Expo", pages_evento_path, class: "btn btn-expo"%>
-  </div>
-</div>
 </div>
 <br>
 <br>
@@ -80,10 +79,8 @@
         </div>
       </div>
       <div class="wrappper-background">
-        <div class="wrappper-venue">
           <div class="col-xs-12" style="text-align: center;">
-            <p>Fundada en el 2012 por un colectivo de profesionales y artistas. <br>Apoya y promueve los diversos sectores artísticos en Panamá; dando soporte a la formación y profesionalización de artistas emergentes, creando nexos entre el público y la cultural.</p>
-          </div>
+            <p>Fundada en el 2012 por un colectivo de profesionales y artistas. <br>Apoya y promueve los diversos sectores artísticos en Panamá; dando soporte <br> a la formación y profesionalización de artistas emergentes, creando nexos entre el público y la cultural.</p>
         </div>
       </div>
     </div>
@@ -96,16 +93,16 @@
         <div class="col-xs-12">
           <%= image_tag('logopunto.png')%>
         </div>
-        <div class="col-xs-12 pad" style="text-align: center;">
+        <div class="col-xs-12" style="text-align: center;">
           <p>Fundada en el 2012 por un colectivo de profesionales y artistas.
-          <br>Apoya y promueve los diversos sectores artísticos en Panamá; dando soporte a la formación y profesionalización de artistas emergentes, creando nexos entre el público y la cultural.</p>
+            <br>Apoya y promueve los diversos sectores artísticos en Panamá; dando soporte a la formación y profesionalización de artistas emergentes, creando nexos entre el público y la cultural.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<br>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
+  <br>
 
